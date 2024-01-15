@@ -33,7 +33,7 @@ A way to interact with a vast database and be able to visualize the data in a mo
 If you want to use the Python library (`animal_shelter(1).py`) in your own Python scripts:
 
 1. **Initialize the AnimalShelter Object:**
-   ```python
+
    from animal_shelter import AnimalShelter
 
    username = "your-mongodb-username"
