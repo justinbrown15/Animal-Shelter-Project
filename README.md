@@ -14,4 +14,28 @@ A way to interact with a vast database and be able to visualize the data in a mo
 3. Run the Jupyter Notebook containing the dashboard code
    jupyter notebook ProjectTwoDashboard(1).ipynb
 
+## Usage
 
+### Using the Animal Shelter Dashboard
+
+1. **Run the Dashboard:**
+   - Open the Jupyter Notebook file `ProjectTwoDashboard(1).ipynb` in a Jupyter environment.
+   - Execute the cells to run the dashboard.
+
+2. **Interact with the Dashboard:**
+   - Explore the data table to view details about animals in the shelter.
+   - Use the provided buttons to filter data based on rescue types.
+   - Check the interactive pie chart for breed distribution.
+   - Explore the geolocation chart to visualize the location of animals on a map.
+
+### AnimalShelter Python Library
+
+If you want to use the Python library (`animal_shelter(1).py`) in your own Python scripts:
+
+1. **Initialize the AnimalShelter Object:**
+   ```python
+   from animal_shelter import AnimalShelter
+
+   username = "your-mongodb-username"
+   password = "your-mongodb-password"
+   shelter = AnimalShelter(username, password)
